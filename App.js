@@ -1,7 +1,7 @@
 import React, {Component, useEffect, useLayoutEffect, useState} from 'react';
 import {View} from 'react-native';
 
-import {Atas, Tengah, Bawah} from './components/dnaindicator/ViewBox';
+import {Atas, Tengah, Bawah} from './components/ViewBox';
 
 const ActivityIndicatorDna = () => {
   const [condition, setCondition] = useState(false);
