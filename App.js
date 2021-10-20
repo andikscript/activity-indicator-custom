@@ -20,21 +20,25 @@ const ActivityIndicatorDna = () => {
         alignItems: 'center',
         backgroundColor: 'white',
       }}>
-      <Container condition={condition} size={50} />
+      <Container
+        condition={condition}
+        size={50}
+        color={condition ? 'red' : 'blue'}
+      />
     </View>
   );
 };
 
-const Container = ({condition, size}) => {
+const Container = ({condition, size, color}) => {
   return (
     <View
       style={{
         width: size,
         height: size * 2 + 5,
       }}>
-      <Atas condition={condition} paddingLeft={size / 10} />
-      <Tengah condition={condition} />
-      <Bawah condition={condition} paddingLeft={size / 10} />
+      <Atas condition={condition} paddingLeft={size / 10} color={color} />
+      <Tengah condition={condition} color={color} />
+      <Bawah condition={condition} paddingLeft={size / 10} color={color} />
     </View>
   );
 };

@@ -1,8 +1,8 @@
 import React, { Component, useEffect, useLayoutEffect, useState } from "react";
 import { View } from "react-native";
 
-export const Box = ({first, second, condition}) => {
-    const [back, setBack] = useState('green');
+export const Box = ({first, second, condition, color}) => {
+    const [back, setBack] = useState(color);
     const [parentHeight, setParentHeight] = useState(0);
 
     const onLayout = event => {
@@ -18,7 +18,7 @@ export const Box = ({first, second, condition}) => {
 
     useEffect(() => {
       const time = setTimeout(() => {
-        setBack('green');
+        setBack(color);
       }, second);
     }, [condition]);
     
