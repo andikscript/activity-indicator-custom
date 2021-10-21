@@ -6,7 +6,7 @@
 Activity indicator model DNA (deoxyribonucleic acid) dengan menggunakan react native
 
 # Preview
-![111](https://user-images.githubusercontent.com/58913447/138113259-cb63b9fe-b72f-430c-9c2b-6f90f4d2b452.gif)
+![111](https://user-images.githubusercontent.com/58913447/138113259-cb63b9fe-b72f-430c-9c2b-6f90f4d2b452.gif width="250" height="250")
 
 # License
 The MIT License (MIT)
