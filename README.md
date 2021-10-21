@@ -29,6 +29,12 @@ how to call activity indicator model dna :
   transisition={"yellow"}
 />
 ```
+how to call activity indicator custom color :
+```javascript
+<CustomColor 
+  activity={true}
+/>
+```
 # License
 The MIT License (MIT)
 
