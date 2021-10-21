@@ -1,4 +1,4 @@
-# activity-indicator-dna
+# Activity Indicator Custom
 <img src="https://img.shields.io/badge/react-17.0.2-green"> <img src="https://img.shields.io/badge/react%20native-0.66.1-blue"> <img src="https://img.shields.io/badge/activity%20indicator%20dna-1.0.0-red"> 
 
 <img src="https://img.shields.io/badge/npm-v.7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue">
