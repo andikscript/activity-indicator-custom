@@ -2,6 +2,7 @@ import React, {Component, useEffect, useLayoutEffect, useState} from 'react';
 import {View} from 'react-native';
 
 import {Container, Dna} from './components/Dna';
+import { Snake } from './components/Snake';
 
 const ActivityIndicator = () => {
   return (
@@ -12,12 +13,17 @@ const ActivityIndicator = () => {
         alignItems: 'center',
         backgroundColor: 'white',
       }}>
-      <Dna
+      {/* <Dna
         size={50}
         colorFirst={'red'}
         ColorSecond={'blue'}
         transisition={"yellow"}
       />
+      <Snake 
+        colorFirst={"blue"}
+        colorSecond={"red"}
+        transisition={"yellow"}
+      /> */}
     </View>
   );
 };
