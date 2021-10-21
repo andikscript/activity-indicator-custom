@@ -1,4 +1,5 @@
 # activity-indicator-dna
+https://img.shields.io/badge/react-17.0.1-green
 Activity indicator model DNA (deoxyribonucleic acid) dengan menggunakan react native
 
 # Preview
