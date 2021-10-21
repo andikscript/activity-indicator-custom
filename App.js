@@ -25,9 +25,9 @@ const ActivityIndicator = () => {
         colorSecond={"red"}
         transisition={"yellow"}
       /> */}
-      {/* <CustomColor 
+      <CustomColor 
         activity={true}
-      /> */}
+      />
     </View>
   );
 };
