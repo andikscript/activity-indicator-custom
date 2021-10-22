@@ -31,8 +31,11 @@ how to call activity indicator model dna :
 ```
 how to call activity indicator custom color :
 ```javascript
-<CustomColor 
+<CustomColor
   activity={true}
+  colorFirst={'#aa00ff'}
+  colorSeccond={'#2962ff'}
+  colorThird={'#00bfa5'}
 />
 ```
 # License
