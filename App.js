@@ -25,12 +25,12 @@ const ActivityIndicator = () => {
         colorSecond={"red"}
         transisition={"yellow"}
       /> */}
-      <CustomColor
+      {/* <CustomColor
         activity={true}
         colorFirst={'#aa00ff'}
         colorSeccond={'#2962ff'}
         colorThird={'#00bfa5'}
-      />
+      /> */}
     </View>
   );
 };
