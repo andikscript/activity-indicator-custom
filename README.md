@@ -16,8 +16,8 @@ how to call snake model activity indicator :
 ```javascript
 <Dna
   size={50}
-  colorFirst={'red'}
-  colorSecond={'blue'}
+  colorFirst={"red"}
+  colorSecond={"blue"}
   transisition={"yellow"}
 />
 ```
