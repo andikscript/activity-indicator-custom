@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from "react";
 import {ActivityIndicator, View} from "react-native";
 
-export const CustomColor = ({activity}) => {
+export const CustomColor = ({activity, colorFirst, colorSecond, colorThird}) => {
   const [colorIndicator, setColorIndicator] = useState("#d50000");
   const [condition, setCondition] = useState(false);
 
   useEffect(() => {
     setTimeout(function () {
-      setColorIndicator("#aa00ff");
+      setColorIndicator(colorFirst);
     }, 1500);
   }, [condition]);
 
   useEffect(() => {
     setTimeout(function () {
-      setColorIndicator("#2962ff");
+      setColorIndicator(colorSecond);
     }, 2500);
   }, [condition]);
 
   useEffect(() => {
     setTimeout(function () {
-      setColorIndicator("#00bfa5");
+      setColorIndicator(colorThird);
       setCondition(!condition);
     }, 4000);
   }, [condition]);
