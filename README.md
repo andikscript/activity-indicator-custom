@@ -33,9 +33,9 @@ how to call activity indicator custom color :
 ```javascript
 <CustomColor
   activity={true}
-  colorFirst={'#aa00ff'}
-  colorSeccond={'#2962ff'}
-  colorThird={'#00bfa5'}
+  colorFirst={'red'}
+  colorSeccond={'blue'}
+  colorThird={'green'}
 />
 ```
 # License
