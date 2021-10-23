@@ -12,7 +12,7 @@ Custom activity indicator using react native
 # How to Use 
 You can use this activity indicator by calling the component directly in the core component.
 
-how to call snake model activity indicator :
+how to call activity indicator model dna :
 ```javascript
 <Dna
   size={50}
@@ -21,7 +21,7 @@ how to call snake model activity indicator :
   transisition={"yellow"}
 />
 ```
-how to call activity indicator model dna :
+how to call snake model activity indicator :
 ```javascript
 <Snake 
   colorFirst={"blue"}
