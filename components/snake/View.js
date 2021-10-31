@@ -12,7 +12,6 @@ export const ViewFlex = ({ one, two, flex, condition, size, color, transisition}
       <Box
         timeFirst={one}
         timeSecond={one + 50}
-        condition={condition}
         size={size}
         color={color}
         transisition={transisition}
@@ -20,7 +19,6 @@ export const ViewFlex = ({ one, two, flex, condition, size, color, transisition}
       <Box
         timeFirst={one + 50}
         timeSecond={two}
-        condition={condition}
         size={size}
         color={color}
         transisition={transisition}
@@ -28,7 +26,6 @@ export const ViewFlex = ({ one, two, flex, condition, size, color, transisition}
       <Box
         timeFirst={two}
         timeSecond={two + 50}
-        condition={condition}
         size={size}
         color={color}
         transisition={transisition}

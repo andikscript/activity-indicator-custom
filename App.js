@@ -1,5 +1,5 @@
-import React, {Component, useEffect, useLayoutEffect, useState} from 'react';
-import {View} from 'react-native';
+import React, {Component, useEffect, useLayoutEffect, createContext, useState, useContext} from 'react';
+import {View, Text, Button} from 'react-native';
 import { CustomColor } from './components/CustomColor';
 
 import {Container, Dna} from './components/Dna';
@@ -19,12 +19,12 @@ const ActivityIndicator = () => {
         colorFirst={'red'}
         ColorSecond={'blue'}
         transisition={"yellow"}
-      />
+      /> */}
       <Snake 
         colorFirst={"blue"}
         colorSecond={"red"}
         transisition={"yellow"}
-      /> */}
+      />
       {/* <CustomColor
         activity={true}
         colorFirst={'#aa00ff'}

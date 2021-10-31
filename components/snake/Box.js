@@ -1,20 +1,22 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { Component, useContext, useEffect, useState } from "react";
 import { View } from "react-native";
+import { contextCondition } from "../Snake";
 
-export const Box = ({timeFirst, timeSecond, condition, size, color, transisition}) => {
+export const Box = ({timeFirst, timeSecond, size, color, transisition}) => {
   const [backgroundColor, setBakcgroundColor] = useState(color);
+  const conditionData = useContext(contextCondition);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setBakcgroundColor(transisition);
     }, timeFirst);
-  }, [condition]);
+  }, [conditionData]);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setBakcgroundColor(color);
     }, timeSecond);
-  }, [condition]);
+  }, [conditionData]);
 
   return (
     <View

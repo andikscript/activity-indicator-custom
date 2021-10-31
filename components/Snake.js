@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import { View } from "react-native";
 import { ViewFlex } from "./snake/View";
 
@@ -20,6 +20,8 @@ const list = [
   },
 ];
 
+export const contextCondition = createContext(null);
+
 export const Snake = ({colorFirst, colorSecond, transisition}) => {
   const [condition, setCondition] = useState(false);
 
@@ -35,17 +37,18 @@ export const Snake = ({colorFirst, colorSecond, transisition}) => {
         flex: 1,
         marginTop: 30,
       }}>
-      <Load
-        condition={condition}
-        color={condition ? colorFirst : colorSecond}
-        size={20}
-        transisition={transisition}
-      />
+      <contextCondition.Provider value={condition}>
+        <Load
+          color={condition ? colorFirst : colorSecond}
+          size={20}
+          transisition={transisition}
+        />
+      </contextCondition.Provider>
     </View>
   );
 };
 
-export const Load = ({ condition, color, size, transisition }) => {
+export const Load = ({ color, size, transisition }) => {
   return (
     <View
       style={{
@@ -60,7 +63,6 @@ export const Load = ({ condition, color, size, transisition }) => {
             two={l.two}
             size={size}
             flex={l.flex}
-            condition={condition}
             color={color}
             transisition={transisition}
           />
