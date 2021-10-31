@@ -3,6 +3,7 @@ import {View, Text, Button} from 'react-native';
 import { CustomColor } from './components/CustomColor';
 
 import {Container, Dna} from './components/Dna';
+import { FloatingButton } from './components/FloatingButton';
 import { Snake } from './components/Snake';
 
 const ActivityIndicator = () => {
@@ -10,9 +11,9 @@ const ActivityIndicator = () => {
     <View
       style={{
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'white',
+        // justifyContent: 'center',
+        // alignItems: 'center',
+        // backgroundColor: 'white',
       }}>
       {/* <Dna
         size={50}
@@ -20,17 +21,19 @@ const ActivityIndicator = () => {
         ColorSecond={'blue'}
         transisition={"yellow"}
       /> */}
-      <Snake 
+      {/* <Snake 
         colorFirst={"blue"}
         colorSecond={"red"}
         transisition={"yellow"}
-      />
+      /> */}
       {/* <CustomColor
         activity={true}
         colorFirst={'#aa00ff'}
         colorSeccond={'#2962ff'}
         colorThird={'#00bfa5'}
       /> */}
+
+      <FloatingButton />
     </View>
   );
 };
