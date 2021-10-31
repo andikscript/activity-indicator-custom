@@ -1,10 +1,10 @@
-# Activity Indicator Custom
+# React Native Custom
 <img src="https://img.shields.io/badge/react-17.0.2-green"> <img src="https://img.shields.io/badge/react%20native-0.66.1-blue"> <img src="https://img.shields.io/badge/activity%20indicator%20dna-1.0.0-red"> 
 
 <img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue">
 
 # Is this ?
-Custom activity indicator using react native
+My creation custom react native
 
 # Preview
 <img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/>
