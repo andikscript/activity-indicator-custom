@@ -3,6 +3,8 @@
 
 <img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue">
 
+<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow">
+
 # Is this ?
 My creation custom react native
 
@@ -10,7 +12,7 @@ My creation custom react native
 <img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/>
  
 # How to Use 
-You can use this activity indicator by calling the component directly in the core component.
+You can use this component by calling the name component directly in the core component.
 
 how to call activity indicator model dna :
 ```javascript
@@ -40,7 +42,7 @@ how to call activity indicator custom color :
 ```
 how to call Floating Button :
 ```javascript
-<FloatinButton />
+<FloatingButton />
 ```
 # License
 MIT License
