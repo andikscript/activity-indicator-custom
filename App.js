@@ -1,12 +1,14 @@
-import React, {Component, useEffect, useLayoutEffect, createContext, useState, useContext} from 'react';
-import {View, Text, Button} from 'react-native';
+import React, {Component, useEffect, useLayoutEffect, createContext, useState, useContext, useRef} from 'react';
+import {View, Text, Button, Animated, LogBox, DrawerLayoutAndroid, Dimensions, TextInput, Image} from 'react-native';
 import { CustomColor } from './components/CustomColor';
+import { dataShow } from './components/Search/Data';
 
 import {Container, Dna} from './components/Dna';
 import { FloatingButton } from './components/FloatingButton';
+import { Search } from './components/Search/Search';
 import { Snake } from './components/Snake';
 
-const ActivityIndicator = () => {
+const App = () => {
   return (
     <View
       style={{
@@ -33,9 +35,12 @@ const ActivityIndicator = () => {
         colorThird={'#00bfa5'}
       /> */}
 
-      <FloatingButton />
+      {/* <FloatingButton /> */}
+
+      <Search data={dataShow} />
+
     </View>
   );
 };
 
-export default ActivityIndicator;
+export default App;
