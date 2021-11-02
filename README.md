@@ -3,7 +3,7 @@
 
 <img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue">
 
-<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow">
+<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green">
 
 # Is this ?
 My creation custom react native
@@ -44,6 +44,12 @@ how to call Floating Button :
 ```javascript
 <FloatingButton />
 ```
+how to call Search Realtime :
+```javascript
+<Search data={dataShow} />
+```
+> For custom *"dataShow"* you can change file on *"/components/Search/Data.js"*
+
 # License
 MIT License
 
