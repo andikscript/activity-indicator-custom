@@ -9,7 +9,7 @@
 My creation custom react native
 
 # Preview
-<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/>
+<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/>
  
 # How to Use 
 You can use this component by calling the name component directly in the core component.
