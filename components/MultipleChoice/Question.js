@@ -64,7 +64,7 @@ export const question = [
       },
       {
         id: 'D',
-        answered: ' Menyerapair',
+        answered: 'Menyerap air',
       },
     ],
   },
