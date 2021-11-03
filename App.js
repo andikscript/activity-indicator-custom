@@ -5,6 +5,7 @@ import { dataShow } from './components/Search/Data';
 
 import {Container, Dna} from './components/Dna';
 import { FloatingButton } from './components/FloatingButton';
+import { MultipleChoice } from './components/MultipleChoice/MultipleChoice';
 import { Search } from './components/Search/Search';
 import { Snake } from './components/Snake';
 
@@ -37,8 +38,9 @@ const App = () => {
 
       {/* <FloatingButton /> */}
 
-      <Search data={dataShow} />
+      {/* <Search data={dataShow} /> */}
 
+      <MultipleChoice />
     </View>
   );
 };
