@@ -57,7 +57,10 @@ export const MultipleChoiceView = ({question, result, answer}) => {
 };
 
 const Item = ({item, backgroundColor, onPress, disabled}) => (
-  <View style={style.containerItem}>
+  <TouchableOpacity
+    style={style.containerItem}
+    onPress={onPress}
+    disabled={disabled}>
     <View style={style.containerRadioButton}>
       <TouchableOpacity
         style={[{backgroundColor: backgroundColor}, style.radioButton]}
@@ -65,10 +68,10 @@ const Item = ({item, backgroundColor, onPress, disabled}) => (
         disabled={disabled}
       />
     </View>
-    <View style={[{ flex: 1}, style.containerRadioButton]}>
+    <View style={[{flex: 1}, style.containerRadioButton]}>
       <Text style={style.answered}>{item.answered}</Text>
     </View>
-  </View>
+  </TouchableOpacity>
 );
 
 const style = StyleSheet.create({
@@ -94,8 +97,8 @@ const style = StyleSheet.create({
     justifyContent: 'center',
   },
   radioButton: {
-    width: 15,
-    height: 15,
+    width: 20,
+    height: 20,
     borderRadius: 50,
     borderWidth: 2,
     marginEnd: 10,
