@@ -1,15 +1,15 @@
 # React Native Custom
 <img src="https://img.shields.io/badge/react-17.0.2-green"> <img src="https://img.shields.io/badge/react%20native-0.66.1-blue"> <img src="https://img.shields.io/badge/activity%20indicator%20dna-1.0.0-red"> 
 
-<img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue">
+<img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue"> 
 
-<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green">
+<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green"> <img src="https://img.shields.io/badge/multiple--choice-1.0.0-red">
 
 # Is this ?
 My creation custom react native open source for custom
 
 # Preview
-<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/>
+<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/140117855-244eb5e3-79dd-4bae-b389-b4715f0344fe.gif" width="250" height="550"/>
  
 # How to Use 
 You can use this component by calling the name component directly in the core component.
@@ -49,6 +49,12 @@ how to call Search Realtime :
 <Search data={dataShow} />
 ```
 > For custom *"dataShow"* you can change file on *"/components/Search/Data.js"*
+
+how to call Search Realtime :
+```javascript
+<MultipleChoice />
+```
+> For custom *"question"* you can change file on *"/components/MultipleChoice/Question.js"*
 
 # License
 MIT License
