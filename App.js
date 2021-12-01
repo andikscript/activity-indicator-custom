@@ -8,6 +8,7 @@ import { FloatingButton } from './components/FloatingButton';
 import { MultipleChoice } from './components/MultipleChoice/MultipleChoice';
 import { Search } from './components/Search/Search';
 import { Snake } from './components/Snake';
+import { BlurEffectBackground } from './components/BlurEffectBackground';
 
 const App = () => {
   return (
@@ -40,7 +41,18 @@ const App = () => {
 
       {/* <Search data={dataShow} /> */}
 
-      <MultipleChoice />
+      <Image
+        source={{
+          uri: 'https://images.unsplash.com/photo-1637170556969-169f43457274?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+        }}
+        style={{
+          height: Dimensions.get('screen').height,
+          width: Dimensions.get('screen').width,
+        }}
+      />
+
+      <BlurEffectBackground color={'#fff'} />
+
     </View>
   );
 };
