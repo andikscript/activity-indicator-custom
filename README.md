@@ -3,7 +3,9 @@
 
 <img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue"> 
 
-<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green"> <img src="https://img.shields.io/badge/multiple--choice-1.0.0-red"> <img src="https://img.shields.io/badge/blur--effect-1.0.0-white">
+<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green"> <img src="https://img.shields.io/badge/multiple--choice-1.0.0-red"> <img src="https://img.shields.io/badge/blur--effect-1.0.0-white"> 
+
+<img src="https://img.shields.io/badge/bounce--image-1.0.0-pink"> 
 
 
 # Is this ?
