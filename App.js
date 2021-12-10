@@ -10,6 +10,7 @@ import { Search } from './components/Search/Search';
 import { Snake } from './components/Snake';
 import { BlurEffectBackground } from './components/BlurEffectBackground';
 import { BounceImage } from './components/BounceImage';
+import { SlideWindow } from './components/SlideWindow';
 
 const App = () => {
   return (
@@ -53,10 +54,12 @@ const App = () => {
       />
 
       <BlurEffectBackground color={'#fff'} /> */}
-      
-      <BounceImage 
-        image={require('./src/image/bounce.jpg')}
-      />
+
+      {/* <BounceImage uri="https://cdn.kibrispdr.org/data/pin-map-png-0.png" /> */}
+
+      {/* <BounceImage image={require('./src/image/bounce.jpg')} /> */}
+
+      <SlideWindow />
     </View>
   );
 };
