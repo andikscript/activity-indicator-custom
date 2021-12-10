@@ -16,7 +16,8 @@ My creation custom react native open source for custom
 <img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/140117855-244eb5e3-79dd-4bae-b389-b4715f0344fe.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/144160414-037880a0-df4c-466f-8068-22a7bc135190.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145145789-1e2c009f-8322-48ad-a28c-881531b98edf.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145592847-fa4600fb-1c14-48c6-867c-c8d34bb27497.gif" width="250" height="550"/>
  
 # How to Use 
-git clone
+Git clone
+
 
 ```
 https://github.com/andikscript/react-native-custom.git
