@@ -85,13 +85,13 @@ how to call Slide Window :
 ```javascript
 <SlideWindow />
 ```
-> For custom component on Slide Window you can edit on file ./components/SlideWindows.js on Flatlist in Animated.View
+> For custom component on Slide Window you can edit on file *"./components/SlideWindows.js"* on Flatlist in Animated.View
 
 how to call Slide Show :
 ```javascript
 <SlideShow data={dataSlide} />
 ```
-> For custom image you can change data json format on /component/SlideShow/data.js
+> For custom image you can change data json format on *"/component/SlideShow/data.js"*
 
 # License
 MIT License
