@@ -3,19 +3,21 @@
 
 <img src="https://img.shields.io/badge/npm-v7.24.0-green"> <img src="https://img.shields.io/badge/activity%20indicator%20snake-1.0.0-red"> <img src="https://img.shields.io/badge/License-MIT-blue"> 
 
-<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green"> <img src="https://img.shields.io/badge/multiple--choice-1.0.0-red"> <img src="https://img.shields.io/badge/blur--effect-1.0.0-white"> 
+<img src="https://img.shields.io/badge/floating%20button-1.0.0-yellow"> <img src="https://img.shields.io/badge/search-1.0.0-green"> <img src="https://img.shields.io/badge/multiple--choice-1.0.0-red"> 
 
-<img src="https://img.shields.io/badge/bounce--image-1.0.0-pink"> 
+<img src="https://img.shields.io/badge/blur--effect-1.0.0-white">  <img src="https://img.shields.io/badge/bounce--image-1.0.0-pink"> <img src="https://img.shields.io/badge/blur--effect-1.0.0-white"> 
 
+<img src="https://img.shields.io/badge/slide%20window-1.0.0-blue"> <img src="https://img.shields.io/badge/slide%20show-1.0.0-red"> 
 
 # Is this ?
 My creation custom react native open source for custom
 
 # Preview
-<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/140117855-244eb5e3-79dd-4bae-b389-b4715f0344fe.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/144160414-037880a0-df4c-466f-8068-22a7bc135190.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145145789-1e2c009f-8322-48ad-a28c-881531b98edf.gif" width="250" height="550"/>
+<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/140117855-244eb5e3-79dd-4bae-b389-b4715f0344fe.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/144160414-037880a0-df4c-466f-8068-22a7bc135190.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145145789-1e2c009f-8322-48ad-a28c-881531b98edf.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145592847-fa4600fb-1c14-48c6-867c-c8d34bb27497.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/146672953-bd6ac34b-f959-46d3-a00f-4dc039ae5947.gif" width="250" height="550"/>
  
 # How to Use 
-Git Clone 
+**Git clone**
+
 
 ```
 https://github.com/andikscript/react-native-custom.git
@@ -78,6 +80,18 @@ how to call Bounce Image Animated :
 ```javascript
 <BounceImage image={require('./src/image/bounce.jpg')} />
 ```
+
+how to call Slide Window :
+```javascript
+<SlideWindow />
+```
+> For custom component on Slide Window you can edit on file *"./components/SlideWindows.js"* on Flatlist in Animated.View
+
+how to call Slide Show :
+```javascript
+<SlideShow data={dataSlide} />
+```
+> For custom image you can change data json format on *"/component/SlideShow/data.js"*
 
 # License
 MIT License
