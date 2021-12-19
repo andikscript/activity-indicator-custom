@@ -11,6 +11,8 @@ import { Snake } from './components/Snake';
 import { BlurEffectBackground } from './components/BlurEffectBackground';
 import { BounceImage } from './components/BounceImage';
 import { SlideWindow } from './components/SlideWindow';
+import SlideShow from './components/SlideShow/SlideShow';
+import { dataSlide } from './components/SlideShow/data';
 
 const App = () => {
   return (
@@ -59,7 +61,9 @@ const App = () => {
 
       {/* <BounceImage image={require('./src/image/bounce.jpg')} /> */}
 
-      <SlideWindow />
+      {/* <SlideWindow /> */}
+      
+      <SlideShow data={dataSlide} />
     </View>
   );
 };
