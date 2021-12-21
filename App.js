@@ -13,6 +13,7 @@ import { BounceImage } from './components/BounceImage';
 import { SlideWindow } from './components/SlideWindow';
 import SlideShow from './components/SlideShow/SlideShow';
 import { dataSlide } from './components/SlideShow/data';
+import LoadingDribble from './components/LoadingScreen/LoadingDribble';
 
 const App = () => {
   return (
@@ -63,7 +64,9 @@ const App = () => {
 
       {/* <SlideWindow /> */}
       
-      <SlideShow data={dataSlide} />
+      {/* <SlideShow data={dataSlide} /> */}
+
+      <LoadingDribble color={'red'} />
     </View>
   );
 };
