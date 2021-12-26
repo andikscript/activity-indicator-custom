@@ -98,7 +98,8 @@ how to call Scroll Campaign :
 <ScrollCampaign 
  data={data} 
  distance={75} 
- size={250} />
+ size={250} 
+ />
 ```
 > For custom data you can change file data.js on *"./components/ScrollCampaign/data"*
 * props *"distance"* to use determine distance margin left of scroll campaign
