@@ -14,6 +14,8 @@ import { SlideWindow } from './components/SlideWindow';
 import SlideShow from './components/SlideShow/SlideShow';
 import { dataSlide } from './components/SlideShow/data';
 import LoadingDribble from './components/LoadingScreen/LoadingDribble';
+import ScrollCampaign from './components/ScrollCampaign/ScrollCampaign';
+import data from './components/ScrollCampaign/data';
 
 const App = () => {
   return (
@@ -22,7 +24,7 @@ const App = () => {
         flex: 1,
         // justifyContent: 'center',
         // alignItems: 'center',
-        // backgroundColor: 'white',
+        backgroundColor: 'white',
       }}>
       {/* <Dna
         size={50}
@@ -66,7 +68,8 @@ const App = () => {
       
       {/* <SlideShow data={dataSlide} /> */}
 
-      <LoadingDribble color={'red'} />
+      {/* <LoadingDribble color={'red'} /> */}
+      <ScrollCampaign data={data} distance={75} size={250} />
     </View>
   );
 };
