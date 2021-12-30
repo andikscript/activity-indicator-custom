@@ -7,13 +7,15 @@
 
 <img src="https://img.shields.io/badge/blur--effect-1.0.0-white">  <img src="https://img.shields.io/badge/bounce--image-1.0.0-pink"> <img src="https://img.shields.io/badge/blur--effect-1.0.0-white"> 
 
-<img src="https://img.shields.io/badge/slide%20window-1.0.0-blue"> <img src="https://img.shields.io/badge/slide%20show-1.0.0-red"> <img src="https://img.shields.io/badge/scroll%20campaign-1.0.0-blue"> 
+<img src="https://img.shields.io/badge/slide%20window-1.0.0-blue"> <img src="https://img.shields.io/badge/slide%20show-1.0.0-red"> <img src="https://img.shields.io/badge/scroll%20campaign-1.0.0-blue">  
+
+<img src="https://img.shields.io/badge/header%20folding-1.0.0-green"> 
 
 # Is this ?
 My creation custom react native open source for custom
 
 # Preview
-<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/140117855-244eb5e3-79dd-4bae-b389-b4715f0344fe.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/144160414-037880a0-df4c-466f-8068-22a7bc135190.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145145789-1e2c009f-8322-48ad-a28c-881531b98edf.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145592847-fa4600fb-1c14-48c6-867c-c8d34bb27497.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/146672953-bd6ac34b-f959-46d3-a00f-4dc039ae5947.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/147404656-26cf8fdb-0b30-4121-b8f1-ed099b638072.gif" width="250" height="550"/> 
+<img src="https://user-images.githubusercontent.com/58913447/138280100-a2182105-d6c9-41f1-a272-b0aa0aba5701.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138280180-d9d56c1a-ac6a-4303-a44a-823ca965bb5e.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/138286149-27ffd58b-2330-40d5-88e2-d4fb413691d4.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139575348-6f50ccdf-443c-4596-bbad-2a584220eb92.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/139909013-3cdc2f99-48f4-4583-b30f-4a1f48ac7647.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/140117855-244eb5e3-79dd-4bae-b389-b4715f0344fe.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/144160414-037880a0-df4c-466f-8068-22a7bc135190.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145145789-1e2c009f-8322-48ad-a28c-881531b98edf.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/145592847-fa4600fb-1c14-48c6-867c-c8d34bb27497.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/146672953-bd6ac34b-f959-46d3-a00f-4dc039ae5947.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/147404656-26cf8fdb-0b30-4121-b8f1-ed099b638072.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58913447/147754361-a9d464e6-3047-491b-8159-41cb564db702.gif" width="250" height="550"/> 
  
 # How to Use 
 **Git clone**
@@ -96,14 +98,20 @@ how to call Slide Show :
 how to call Scroll Campaign :
 ```javascript
 <ScrollCampaign 
- data={data} 
- distance={75} 
- size={250} 
- />
+  data={data} 
+  distance={75} 
+  size={250} 
+/>
 ```
 > For custom data you can change file data.js on *"./components/ScrollCampaign/data"*
 * props *"distance"* to use determine distance margin left of scroll campaign
 * and props *"size"* to use determine the height and width of the scroll campaign
+
+how to call Scroll Campaign :
+```javascript
+<HeaderFolding />
+```
+> For modification you can change file HeaderFolding.js *"./components/HeaderFolding/HeaderFolding"*
 
 # License
 MIT License
