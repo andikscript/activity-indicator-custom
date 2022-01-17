@@ -17,6 +17,7 @@ import LoadingDribble from './components/LoadingScreen/LoadingDribble';
 import ScrollCampaign from './components/ScrollCampaign/ScrollCampaign';
 import data from './components/ScrollCampaign/data';
 import HeaderFolding from './components/HeaderFolding/HeaderFolding';
+import FloatingButtonScroll from './components/FloatingButtonScroll';
 
 const App = () => {
   return (
@@ -71,7 +72,8 @@ const App = () => {
 
       {/* <LoadingDribble color={'red'} /> */}
       {/* <ScrollCampaign data={data} distance={75} size={250} /> */}
-      <HeaderFolding />
+      {/* <HeaderFolding /> */}
+      <FloatingButtonScroll />
     </View>
   );
 };
