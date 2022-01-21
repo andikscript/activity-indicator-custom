@@ -19,6 +19,7 @@ import data from './components/ScrollCampaign/data';
 import HeaderFolding from './components/HeaderFolding/HeaderFolding';
 import FloatingButtonScroll from './components/FloatingButtonScroll';
 import HeaderWindowScroll from './components/HeaderWindowScroll/HeaderWindowScroll';
+import LoadingType from './components/LoadingScreen/LoadingType';
 
 const App = () => {
   return (
@@ -75,7 +76,8 @@ const App = () => {
       {/* <ScrollCampaign data={data} distance={75} size={250} /> */}
       {/* <HeaderFolding /> */}
       {/* <FloatingButtonScroll /> */}
-      <HeaderWindowScroll />
+      {/* <HeaderWindowScroll /> */}
+      <LoadingType sizeLoading={15} />
     </View>
   );
 };
