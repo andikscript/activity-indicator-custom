@@ -20,6 +20,7 @@ import HeaderFolding from './components/HeaderFolding/HeaderFolding';
 import FloatingButtonScroll from './components/FloatingButtonScroll';
 import HeaderWindowScroll from './components/HeaderWindowScroll/HeaderWindowScroll';
 import LoadingType from './components/LoadingScreen/LoadingType';
+import AnimationTextWelcome from './components/AnimationTextWelcome';
 
 const App = () => {
   return (
@@ -77,7 +78,11 @@ const App = () => {
       {/* <HeaderFolding /> */}
       {/* <FloatingButtonScroll /> */}
       {/* <HeaderWindowScroll /> */}
-      <LoadingType sizeLoading={15} />
+      {/* <LoadingType sizeLoading={15} /> */}
+      <AnimationTextWelcome 
+        title={'Hi'} 
+        body={'Andik Script'} 
+      />
     </View>
   );
 };
