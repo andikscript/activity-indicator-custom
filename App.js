@@ -21,6 +21,7 @@ import FloatingButtonScroll from './components/FloatingButtonScroll';
 import HeaderWindowScroll from './components/HeaderWindowScroll/HeaderWindowScroll';
 import LoadingType from './components/LoadingScreen/LoadingType';
 import AnimationTextWelcome from './components/AnimationTextWelcome';
+import FloatingButtonAnimated from './components/FloatingButtonAnimated';
 
 const App = () => {
   return (
@@ -79,9 +80,14 @@ const App = () => {
       {/* <FloatingButtonScroll /> */}
       {/* <HeaderWindowScroll /> */}
       {/* <LoadingType sizeLoading={15} /> */}
-      <AnimationTextWelcome 
+      {/* <AnimationTextWelcome 
         title={'Hi'} 
         body={'Andik Script'} 
+      /> */}
+      <FloatingButtonAnimated 
+        buttonFirst={'twitter'}
+        buttonSecond={'github'}
+        buttonThird={'reddit'}
       />
     </View>
   );
