@@ -22,6 +22,7 @@ import HeaderWindowScroll from './components/HeaderWindowScroll/HeaderWindowScro
 import LoadingType from './components/LoadingScreen/LoadingType';
 import AnimationTextWelcome from './components/AnimationTextWelcome';
 import FloatingButtonAnimated from './components/FloatingButtonAnimated';
+import OverflowMenu from './components/OverflowMenu/OverflowMenu';
 
 const App = () => {
   return (
@@ -84,11 +85,12 @@ const App = () => {
         title={'Hi'} 
         body={'Andik Script'} 
       /> */}
-      <FloatingButtonAnimated 
+      {/* <FloatingButtonAnimated 
         buttonFirst={'twitter'}
         buttonSecond={'github'}
         buttonThird={'reddit'}
-      />
+      /> */}
+      <OverflowMenu />
     </View>
   );
 };
