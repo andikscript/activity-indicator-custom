@@ -23,6 +23,7 @@ import LoadingType from './components/LoadingScreen/LoadingType';
 import AnimationTextWelcome from './components/AnimationTextWelcome';
 import FloatingButtonAnimated from './components/FloatingButtonAnimated';
 import OverflowMenu from './components/OverflowMenu/OverflowMenu';
+import HeaderImageFolding from './components/HeaderImageFolding/HeaderImageFolding';
 
 const App = () => {
   return (
@@ -72,7 +73,7 @@ const App = () => {
       {/* <BounceImage image={require('./src/image/bounce.jpg')} /> */}
 
       {/* <SlideWindow /> */}
-      
+
       {/* <SlideShow data={dataSlide} /> */}
 
       {/* <LoadingDribble color={'red'} /> */}
@@ -90,7 +91,10 @@ const App = () => {
         buttonSecond={'github'}
         buttonThird={'reddit'}
       /> */}
-      <OverflowMenu />
+      {/* <OverflowMenu /> */}
+      <HeaderImageFolding 
+        image={'https://tinyurl.com/3aubksna'} 
+        />
     </View>
   );
 };
