@@ -24,6 +24,7 @@ import AnimationTextWelcome from './components/AnimationTextWelcome';
 import FloatingButtonAnimated from './components/FloatingButtonAnimated';
 import OverflowMenu from './components/OverflowMenu/OverflowMenu';
 import HeaderImageFolding from './components/HeaderImageFolding/HeaderImageFolding';
+import NotifAnimated from './components/NotifAnimated/NotifAnimated';
 
 const App = () => {
   return (
@@ -92,9 +93,12 @@ const App = () => {
         buttonThird={'reddit'}
       /> */}
       {/* <OverflowMenu /> */}
-      <HeaderImageFolding 
+      {/* <HeaderImageFolding 
         image={'https://tinyurl.com/3aubksna'} 
-        />
+        /> */}
+      <NotifAnimated 
+        textNotif={'This is notification'}
+      />  
     </View>
   );
 };
