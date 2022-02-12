@@ -25,6 +25,7 @@ import FloatingButtonAnimated from './components/FloatingButtonAnimated';
 import OverflowMenu from './components/OverflowMenu/OverflowMenu';
 import HeaderImageFolding from './components/HeaderImageFolding/HeaderImageFolding';
 import NotifAnimated from './components/NotifAnimated/NotifAnimated';
+import ZoomImage from './components/Zoom/ZoomImage';
 
 const App = () => {
   return (
@@ -96,9 +97,14 @@ const App = () => {
       {/* <HeaderImageFolding 
         image={'https://tinyurl.com/3aubksna'} 
         /> */}
-      <NotifAnimated 
+      {/* <NotifAnimated 
         textNotif={'This is notification'}
-      />  
+      />   */}
+      <ZoomImage
+        src={
+          'https://s.kaskus.id/r540x540/images/2020/08/01/10900683_20200801104758.jpg'
+        }
+      />
     </View>
   );
 };
