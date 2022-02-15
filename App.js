@@ -26,6 +26,7 @@ import OverflowMenu from './components/OverflowMenu/OverflowMenu';
 import HeaderImageFolding from './components/HeaderImageFolding/HeaderImageFolding';
 import NotifAnimated from './components/NotifAnimated/NotifAnimated';
 import ZoomImage from './components/Zoom/ZoomImage';
+import TypeAndLoading from './components/TypeLoading/TypeAndLoading';
 
 const App = () => {
   return (
@@ -100,11 +101,12 @@ const App = () => {
       {/* <NotifAnimated 
         textNotif={'This is notification'}
       />   */}
-      <ZoomImage
+      {/* <ZoomImage
         src={
           'https://s.kaskus.id/r540x540/images/2020/08/01/10900683_20200801104758.jpg'
         }
-      />
+      /> */}
+      <TypeAndLoading />
     </View>
   );
 };
